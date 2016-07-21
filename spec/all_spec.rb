@@ -6,7 +6,7 @@
 # are false or nil.
 
 RSpec.describe 'all?' do
-  context 'returns true' do
+  context 'it returns true' do
     after do
       expect(@example).to eq true
     end
@@ -24,7 +24,7 @@ RSpec.describe 'all?' do
     end
   end
 
-  context 'returns false' do
+  context 'it returns false' do
     after do
       expect(@example).to eq false
     end
